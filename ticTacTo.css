@@ -1,0 +1,97 @@
+.container {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 650px;
+}
+.box {
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  font-size: 3.5rem;
+}
+.one,
+.seven {
+  border-left: 2px solid steelblue;
+  border-right: 2px solid steelblue;
+}
+.three,
+.five {
+  border-top: 2px solid steelblue;
+  border-bottom: 2px solid steelblue;
+}
+.four {
+  border: 2px solid steelblue;
+}
+.red {
+  color: red;
+}
+.green {
+  color: limegreen;
+}
+.X-container {
+  font-size: 4rem;
+  color: red;
+}
+.O-container {
+  color: limegreen;
+  font-size: 4rem;
+}
+.draw-container {
+  color: orange;
+  background: url(./img/draw.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 4rem;
+}
+.X-container,
+.O-container,
+.draw-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+
+  width: 1000px;
+  height: 700px;
+  margin: 50px auto;
+}
+.X-container,
+.O-container {
+  background: url(./img/win.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.X-container span,
+.O-container span,
+.draw-container span {
+  position: absolute;
+  bottom: 200px;
+}
+.large-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-move,
+.second-move {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  border-radius: 10px;
+}
+.first-move {
+  border: 2px solid lime;
+}
+.second-move {
+  border: 2px solid salmon;
+}
